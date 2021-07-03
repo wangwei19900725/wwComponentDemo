@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'wwComponentDemo_Example' do
+  pod 'wwComponentDemo', :path => '../'
+
+  target 'wwComponentDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
