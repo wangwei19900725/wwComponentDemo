@@ -1,0 +1,6 @@
+framework module wwComponentDemo {
+  umbrella header "wwComponentDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

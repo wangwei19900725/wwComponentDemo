@@ -1,0 +1,16 @@
+PODS:
+  - wwComponentDemo (0.1.0)
+
+DEPENDENCIES:
+  - wwComponentDemo (from `../`)
+
+EXTERNAL SOURCES:
+  wwComponentDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  wwComponentDemo: 855cedfc583240533bcd9902a2e6f2c79c4403e1
+
+PODFILE CHECKSUM: 61018cdf07a0987dd9963ea832e6efb3acf57165
+
+COCOAPODS: 1.10.1
