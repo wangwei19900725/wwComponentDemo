@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1A4EE5150DB6098EE81418D3 /* Pods-wwComponentDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wwComponentDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-wwComponentDemo_Tests/Pods-wwComponentDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		40D204131B8997A079110F3C /* wwComponentDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = wwComponentDemo.podspec; path = ../wwComponentDemo.podspec; sourceTree = "<group>"; };
+		40D204131B8997A079110F3C /* wwComponentDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = wwComponentDemo.podspec; path = ../wwComponentDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4E44B3B6D1FA07DC0CCCB135 /* Pods_wwComponentDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wwComponentDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* wwComponentDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wwComponentDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		66370BAEE5CB79003888011D /* Pods-wwComponentDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wwComponentDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-wwComponentDemo_Tests/Pods-wwComponentDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9825D4B39F365A63358B9CD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9825D4B39F365A63358B9CD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9AE26D8C1D2335009C6D5BFE /* Pods-wwComponentDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wwComponentDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-wwComponentDemo_Example/Pods-wwComponentDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4F712901ED68D1BFF89A138 /* Pods-wwComponentDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wwComponentDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-wwComponentDemo_Example/Pods-wwComponentDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F38B7284CA99A4DE14A67658 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F38B7284CA99A4DE14A67658 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				1A4EE5150DB6098EE81418D3 /* Pods-wwComponentDemo_Tests.debug.xcconfig */,
 				66370BAEE5CB79003888011D /* Pods-wwComponentDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
