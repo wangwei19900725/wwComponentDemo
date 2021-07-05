@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'wwComponentDemo'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'this SDK is used for test Demo'
 
 # This description is used to generate tags and improve search results.
